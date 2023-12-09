@@ -1,46 +1,18 @@
-# Getting Started with Create React App
+## 仓库说明
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 思维导图
+- 本仓库内容？
+- 什么是计算思维？
+- 为什么要建立这个仓库？
+- 仓库的目标是什么？
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 总结
+- 本仓库内容？
+  > 本仓库主要是使用计算思维抽象的关键流程（抽象组件关键部分、组件的设计模式、其他工具等）
+- 什么是计算思维？
+  > 计算思维不是一种技术而是一种解决问题的方式
+  > 分解问题（导图）-->抽象问题（状态图）-->设计算法（流程图）-->模式识别（时间线）[微信文档](https://mp.weixin.qq.com/s?__biz=MjM5NDgxMzY2MQ==&mid=2650429933&idx=1&sn=e3442fa4994cc3d013836a1fec5964d7&chksm=be8cfa5f89fb7349f969d897cdeccec3ee582eccf969d76b1a216f99699a6af57c7d2e115152&scene=27)
+- 为什么要建立这个仓库？
+  > 原本是想根据开源的组件库自己仿写一套组件库，但是后期发现不现实，所以就先把组件、useHook、工具的关键部分抽象出来，后期再根据实际情况进行修改。
+- 仓库的目标是什么？
+  > 可能转行以后会停更...🏞

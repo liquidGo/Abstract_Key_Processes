@@ -1,5 +1,7 @@
 // RenderProps Mode
 // Mutipul External Components Share a Internal Common State
+
+/* eslint-disable import/no-anonymous-default-export */
 import React, { useState } from "react";
 
 const Wrapper = ({ children }) => {

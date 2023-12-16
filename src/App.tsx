@@ -9,6 +9,7 @@ import Patterns_StateReducer from './react_patterns/04_StateReducer';
 import Patterns_ControlledProps from './react_patterns/05_ControlProps';
 import Components_Demo_Form from "./components/form/demo";
 import Other_Demo_Animation from "./other/animation/animation";
+import Other_Demo_Blob from "./other/whatIsBinaryObject/01_Blob";
 import Other_Demo_DiffSetState from "./other/diffrence_between_setState_and_forceUpdate";
 import { decorator } from "./server_nest_tips/decorator";
 
@@ -22,9 +23,12 @@ export default function App() {
       {/* <Patterns_PropGetters/> */}
       {/* <Patterns_CompoundComponent /> */}
       {/* <Patterns_StateReducer /> */}
-      <Patterns_ControlledProps />
+      {/* <Patterns_ControlledProps /> */}
+
       {/* <Other_Demo_Animation /> */}
       {/* <Other_Demo_DiffSetState /> */}
+      <Other_Demo_Blob/>
+
       {/* <Components_Demo_Form /> */}
     </div>
   );

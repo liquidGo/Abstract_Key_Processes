@@ -1,0 +1,28 @@
+.GridStyle {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(4, 100px);
+  gap: 10px 30px;
+}
+.GridStyle .item {
+  background-color: #ccc;
+}
+.GridStyle .item-2 {
+  background: #f64040;
+  grid-column-start: span 2;
+}
+.FlexStyle {
+  display: flex;
+  flex-wrap: wrap;
+  width: 360px;
+}
+.FlexStyle .item {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  margin: 10px;
+}
+.FlexStyle .item-2 {
+  background: #f64040;
+  width: 220px;
+}

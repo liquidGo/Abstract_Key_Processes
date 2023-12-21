@@ -11,6 +11,7 @@ import Components_Demo_Form from "./components/form/demo";
 import Other_Demo_Animation from "./other/animation/animation";
 import Other_Demo_Blob from "./other/whatIsBinaryObject/01_Blob";
 import Other_Demo_DiffSetState from "./other/diffrence_between_setState_and_forceUpdate";
+import Other_Demo_Style_Layout from './other/Grid_Flex_Style_Layout'
 import { decorator } from "./server_nest_tips/decorator";
 
 // 装饰器语法
@@ -27,7 +28,8 @@ export default function App() {
 
       {/* <Other_Demo_Animation /> */}
       {/* <Other_Demo_DiffSetState /> */}
-      <Other_Demo_Blob/>
+      {/* <Other_Demo_Blob/> */}
+      <Other_Demo_Style_Layout />
 
       {/* <Components_Demo_Form /> */}
     </div>

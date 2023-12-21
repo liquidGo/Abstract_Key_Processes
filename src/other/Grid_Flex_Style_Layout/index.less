@@ -1,0 +1,47 @@
+@class-prefix-grid: ~"GridStyle";
+@class-prefix-flex: ~"FlexStyle";
+
+.@{class-prefix-grid} {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  // 分为3列
+  grid-template-rows: repeat(4, 100px);
+  // 分为4行
+  // grid-template-areas: 
+  // 't t .'
+  // ;
+  // 设置item1即t区域所占用的列数，前两列为同名，即为同一区域
+  // 上述同理，也可继续换行设置其列数
+  // 注意：如果写成了 't t . . '总共的列数4大于原设置的3列，则原来所设置的grid-template-columns失效。
+  gap: 10px 30px;
+
+  .item {
+    background-color: #ccc;
+  }
+
+  .item-2 {
+    background: rgb(246, 64, 64);
+    grid-column-start: span 2;
+    // grid-area: t;
+    // 自定义item1区域名为:t
+  }
+}
+
+.@{class-prefix-flex}{
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 360px;
+
+  .item{
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    margin: 10px;
+  }
+
+  .item-2 {
+    background: rgb(246, 64, 64);
+    width:  220px;
+  }
+}

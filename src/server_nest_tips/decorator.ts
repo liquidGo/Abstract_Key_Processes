@@ -10,4 +10,6 @@ class MyClass {
   constructor() {}
 }
 
-export const decorator = new MyClass();
+export const decorator:any = new MyClass();
+
+decorator.log();

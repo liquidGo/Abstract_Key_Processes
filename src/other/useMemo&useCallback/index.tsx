@@ -3,10 +3,13 @@ import React, { useMemo, useCallback, useState, useEffect } from 'react';
 const Other_useMemo_useCallback = () => {
   const [count, setCount] = useState(0);
   const [random, setRandom] = useState(1);
+  
+  // 假设这里是一个非常耗性能的计算，只有当random改变时，才会重新计算。
   const memoizedValue = useMemo(() => {
     return random * 10000;
   }, [random]);
 
+  // 假设这里是一个子组件需要的callback，只有当父组件依赖的count发生改变时才会重新渲染子组件。
   const memoizedCallback = useCallback(() => {
     console.log('memoizedCallback');
   }, [count]);

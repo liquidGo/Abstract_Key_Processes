@@ -64,7 +64,7 @@ function App() {
         in={csstransitionVisible}
         timeout={1000}
         nodeRef={nodeRef}
-        unmountOnExit
+        unmountOnExit  // 这个属性很重要
         classNames={`csstransitionVisible`}
         // onEnter={() => setOnShowDiv(false)}
         onExited={() => setOnShowDiv(true)}

@@ -1,5 +1,6 @@
 // ControlProps Mode
 // 不考虑使用内部维护兜底状态，通过顶层控制独一的状态.
+// 也可以考虑如果没有传入onChange在内部自己维护state，优先取Props传入的onChange.
 
 /* eslint-disable import/no-anonymous-default-export */
 /* eslint-disable no-restricted-globals */

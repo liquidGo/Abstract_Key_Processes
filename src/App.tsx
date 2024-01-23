@@ -14,6 +14,7 @@ import Other_Demo_DiffSetState from "./other/diffrence_between_setState_and_forc
 import Other_Demo_Style_Layout from './other/Grid_Flex_Style_Layout'
 import Other_useMemo_useCallback from "./other/useMemo&useCallback";
 import Other_iframe from "./other/iframe";
+import Ant_FormItem_SetName from './ant/form/formItemInfo/index'
 import './server_nest_tips/decorator'; //装饰器语法
 
 
@@ -31,9 +32,11 @@ export default function App() {
       {/* <Other_Demo_Blob/> */}
       {/* <Other_Demo_Style_Layout /> */}
       {/* <Other_useMemo_useCallback /> */}
-      <Other_iframe />
+      {/* <Other_iframe /> */}
 
       {/* <Components_Demo_Form /> */}
+
+      <Ant_FormItem_SetName />
     </div>
   );
 }

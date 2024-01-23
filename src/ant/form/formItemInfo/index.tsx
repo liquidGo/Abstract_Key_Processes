@@ -23,6 +23,14 @@ export default () => {
         <Input />
       </Form.Item>
       <Button onClick={()=>{console.log(form.getFieldsValue())}}>getForm</Button>
+      <Button onClick={()=>{
+        form.setFieldsValue({
+          name:{
+            name1:'2023',
+            name2:'2023'
+          }
+        })
+      }}>回填数据</Button>
     </Form>
   )
 }

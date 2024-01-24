@@ -13,6 +13,7 @@ export default () => {
         // 设置路径name.name1=name1
         name={['name','name1']}
       >
+        
         <Input />
       </Form.Item>
       <Form.Item

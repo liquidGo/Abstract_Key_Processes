@@ -54,7 +54,8 @@ export const useToggle = <V extends Record<string, any>>({
   const on = isControlled ? value.on : state.on;
 
   const dispatchWithOnChange = (action: IAction<{ on: boolean }>) => {
-    // 如果外部没传值value，就使用内部的dispatch的value，如果外部传值了value，就使用外部的
+    // 默认是外部不传value但是传onChange，把内部的value分享给外部
+    // 如果外部传了value，那么完全由外部控制
     if (!isControlled) {
       dispatch(action);
     }

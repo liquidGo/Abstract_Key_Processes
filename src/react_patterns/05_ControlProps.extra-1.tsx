@@ -59,6 +59,7 @@ export const useToggle = <V extends Record<string, any>>({
     if (!isControlled) {
       dispatch(action);
     }
+    
 
     onChange?.(reducer({ ...state, on }, action), action.type);
   }

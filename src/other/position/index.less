@@ -1,0 +1,21 @@
+@class-prefix-position: ~"PositionStyle";
+
+.@{class-prefix-position} {
+  width: 100px;
+  height: 100px;
+  overflow: scroll;
+
+  &-item {
+    width: 100px;
+    height: 200px;
+    background-color: red;
+    border-bottom: 1px solid #000;
+  }
+
+  &-sticky {
+    height: 10px;
+    background: #fff;
+    position: sticky;
+    top: 0;
+  }
+}

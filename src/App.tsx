@@ -13,6 +13,7 @@ import Components_Demo_Form from "./components/form/demo";
 import Other_Demo_Animation from "./other/animation/animation";
 import Other_Demo_Blob from "./other/whatIsBinaryObject/01_Blob";
 import Other_Demo_DiffSetState from "./other/diffrence_between_setState_and_forceUpdate";
+import Other_Demo_Position from "./other/position";
 import Other_Demo_Style_Layout from './other/Grid_Flex_Style_Layout'
 import Other_useMemo_useCallback from "./other/useMemo&useCallback";
 import Other_iframe from "./other/iframe";
@@ -27,7 +28,7 @@ export default function App() {
       {/* <Patterns_CompoundComponent /> */}
       {/* <Patterns_StateReducer /> */}
       {/* <Patterns_ControlledProps /> */}
-      <Patterns_ControlledPropsExtra_1 />
+      {/* <Patterns_ControlledPropsExtra_1 /> */}
 
       {/* <Other_Demo_Animation /> */}
       {/* <Other_Demo_DiffSetState /> */}
@@ -35,6 +36,7 @@ export default function App() {
       {/* <Other_Demo_Style_Layout /> */}
       {/* <Other_useMemo_useCallback /> */}
       {/* <Other_iframe /> */}
+      <Other_Demo_Position/>
 
       {/* <Components_Demo_Form /> */}
 

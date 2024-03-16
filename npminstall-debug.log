@@ -1,27 +1,19 @@
 {
-  root: '/Users/Hello/Abstract_Key_Processes',
+  root: 'D:\\@Compo\\Abstract_Key_Processes',
   registry: 'https://registry.npmmirror.com',
-  pkgs: [
-    {
-      name: 'antd',
-      version: 'latest',
-      type: 'tag',
-      alias: undefined,
-      arg: [Result]
-    }
-  ],
+  pkgs: [],
   production: false,
   cacheStrict: false,
-  cacheDir: '/Users/hellobike/.npminstall_tarball',
+  cacheDir: 'C:\\Users\\Administrator\\.npminstall_tarball',
   env: {
     npm_config_registry: 'https://registry.npmmirror.com',
-    npm_config_argv: '{"remain":[],"cooked":["--fix-bug-versions","--china","--userconfig=/Users/hellobike/.cnpmrc","--disturl=https://cdn.npmmirror.com/binaries/node","--registry=https://registry.npmmirror.com","antd","--save"],"original":["--fix-bug-versions","--china","--userconfig=/Users/hellobike/.cnpmrc","--disturl=https://cdn.npmmirror.com/binaries/node","--registry=https://registry.npmmirror.com","antd","--save"]}',
-    npm_config_user_agent: 'npminstall/7.12.0 npm/? node/v16.18.0 darwin x64',
-    npm_config_cache: '/Users/hellobike/.npminstall_tarball',
-    NODE: '/usr/local/bin/node',
-    npm_node_execpath: '/usr/local/bin/node',
-    npm_execpath: '/usr/local/lib/node_modules/cnpm/node_modules/npminstall/bin/install.js',
-    npm_config_userconfig: '/Users/hellobike/.cnpmrc',
+    npm_config_argv: '{"remain":[],"cooked":["--fix-bug-versions","--china","--userconfig=C:\\\\Users\\\\Administrator\\\\.cnpmrc","--disturl=https://cdn.npmmirror.com/binaries/node","--registry=https://registry.npmmirror.com","carco","-g"],"original":["--fix-bug-versions","--china","--userconfig=C:\\\\Users\\\\Administrator\\\\.cnpmrc","--disturl=https://cdn.npmmirror.com/binaries/node","--registry=https://registry.npmmirror.com","carco","-g"]}',
+    npm_config_user_agent: 'npminstall/7.9.0 npm/? node/v18.17.0 win32 x64',
+    npm_config_cache: 'C:\\Users\\Administrator\\.npminstall_tarball',
+    NODE: 'C:\\Program Files\\nodejs\\node.exe',
+    npm_node_execpath: 'C:\\Program Files\\nodejs\\node.exe',
+    npm_execpath: 'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\npminstall\\bin\\install.js',
+    npm_config_userconfig: 'C:\\Users\\Administrator\\.cnpmrc',
     npm_config_disturl: 'https://cdn.npmmirror.com/binaries/node',
     npm_config_r: 'https://registry.npmmirror.com',
     COREPACK_NPM_REGISTRY: 'https://registry.npmmirror.com',
@@ -49,8 +41,8 @@
     npm_config_sharp_binary_host: 'https://cdn.npmmirror.com/binaries/sharp',
     npm_config_sharp_libvips_binary_host: 'https://cdn.npmmirror.com/binaries/sharp-libvips',
     npm_config_robotjs_binary_host: 'https://cdn.npmmirror.com/binaries/robotjs',
-    npm_rootpath: '/Users/Hello/Abstract_Key_Processes',
-    INIT_CWD: '/Users/Hello/Abstract_Key_Processes'
+    npm_rootpath: 'D:\\@Compo\\Abstract_Key_Processes',
+    INIT_CWD: 'D:\\@Compo\\Abstract_Key_Processes'
   },
   binaryMirrors: {
     ENVS: {
@@ -185,7 +177,7 @@
   disableFallbackStore: false,
   workspacesMap: Map(0) {},
   enableWorkspace: false,
-  workspaceRoot: '/Users/Hello/Abstract_Key_Processes',
+  workspaceRoot: 'D:\\@Compo\\Abstract_Key_Processes',
   isWorkspaceRoot: true,
   isWorkspacePackage: false,
   offline: false,
@@ -193,11 +185,13 @@
   ignoreScripts: false,
   foregroundScripts: false,
   ignoreOptionalDependencies: false,
-  detail: false,
+  detail: true,
   forceLinkLatest: false,
   trace: false,
   engineStrict: false,
   registryOnly: false,
   client: false,
-  autoFixVersion: [Function: autoFixVersion]
+  autoFixVersion: [Function: autoFixVersion],
+  targetDir: null,
+  binDir: null
 }

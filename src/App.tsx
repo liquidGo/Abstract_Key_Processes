@@ -33,10 +33,10 @@ export default function App() {
       {/* <Other_Demo_Animation /> */}
       {/* <Other_Demo_DiffSetState /> */}
       {/* <Other_Demo_Blob/> */}
-      {/* <Other_Demo_Style_Layout /> */}
+      <Other_Demo_Style_Layout />
       {/* <Other_useMemo_useCallback /> */}
       {/* <Other_iframe /> */}
-      <Other_Demo_Position/>
+      {/* <Other_Demo_Position/> */}
 
       {/* <Components_Demo_Form /> */}
 

@@ -26,3 +26,38 @@
   background: #f64040;
   width: 220px;
 }
+.minmax {
+  display: grid;
+  width: 50%;
+  grid-template-columns: 100px minmax(100px, 1fr) 2fr;
+  grid-gap: 10px 5px;
+  grid-template-rows: 10px;
+}
+.areas {
+  display: grid;
+  grid-template-rows: repeat(3, 100px);
+  grid-template-columns: repeat(3, 100px);
+  grid-template-areas: "header header header" "main main sidebar" "footer footer footer";
+  grid-gap: 10px 10px;
+}
+.areas .item {
+  background: #ccc;
+}
+.areas .item-3 {
+  grid-area: header;
+}
+.grid-auto-rows {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  grid-auto-rows: 50px;
+  grid-gap: 10px;
+}
+.grid-auto-rows .item {
+  background: yellow;
+}
+.grid-auto-rows .item-9 {
+  background: #ccc;
+  grid-row-start: 4;
+  grid-column-start: 2;
+}

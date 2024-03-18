@@ -55,6 +55,43 @@ const FlexItemSetting = () => (
   </div>
 )
 
+const GridItemSetting = () => (
+  <div>
+    <h1>fr关键字</h1>
+    <div style={{
+      display: "grid",
+      width: '400px',
+      gridTemplateColumns: "100px 1fr 2fr",
+      gridTemplateRows: "10px",
+
+    }}>
+      <div style={{ background: 'red' }}>1/4总大小</div>
+      <div style={{ background: 'green' }}>1/3剩余宽度</div>
+      <div style={{ background: 'yellow' }}>2/3剩余宽度</div>
+    </div>
+    <br />
+    <h1>minmax关键字</h1>
+    <div className='minmax'>
+      <div style={{ background: 'red' }}>1/4总大小</div>
+      <div style={{ background: 'green' }}>最小宽度为100px，超出100px以后剩余宽度1/3</div>
+      <div style={{ background: 'yellow' }}>2/3剩余宽度</div>
+    </div>
+    <h1>grid-template-arers定义区域</h1>
+    <div className='areas'>
+      {Array(9).fill(0).map((item, index) => (
+        <div className={`item item-${index}`}>item-{index}</div>
+      ))}
+    </div>
+    <h1>grid-auto-rows/columns</h1>
+    <div className='grid-auto-rows'>
+      {Array.from({ length: 10 }).map((item, index) => (
+        <div className={`item item-${index}`}>item-{index}</div>
+      ))}
+    </div>
+  </div>
+
+)
+
 export default () => (
   <div>
     <h1>GridStyle</h1>
@@ -63,5 +100,7 @@ export default () => (
     <FlexStyle />
     <h1>flex弹性项属性</h1>
     <FlexItemSetting />
+    <h1>Grid子项属性</h1>
+    <GridItemSetting />
   </div>
 )
